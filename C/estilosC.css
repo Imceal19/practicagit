@@ -1,0 +1,133 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: gray;
+}
+header, footer, .main{
+    width: 90%;
+    margin: 20px auto;
+    max-width: 1000px
+    
+    
+}
+header nav{
+overflow: hidden;
+  background-color: green;
+}
+
+header nav ul{
+    list-style: none;
+}
+header nav ul li{
+    float: left;
+}
+
+header nav ul li a{
+    display: block;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+    background-color: darkgreen;
+    
+}
+.main .articles{
+    width: 68%;
+    float: left;
+    margin-right:2%;
+}
+aside{
+    width: 30%;
+    background-color: #6b6d6d;
+    float:left;
+    color: #fff;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+.main .articles article{
+    padding:20px;
+    background: #fff;
+    margin-bottom: 20px;
+}
+footer{
+    background:#000;
+    color: #fff;
+    clear:both;
+    padding:10px 0px;
+    text-align: center;
+    
+}
+
+
+table{
+    border: 2px solid #000;
+    border-collapse: collapse;
+    padding: 2px;
+
+        
+}
+
+table td{
+    border: 1px solid #000;
+    padding:20px;
+}
+form{
+    width: 70%;
+    border:2px solid #ccc;
+    margin: 20px;
+    padding:20px;
+    background-color: green;
+    border-radius: 10px;
+    
+}
+label{
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+textarea{
+    resize: vertical;
+    max-height: 200px;
+    min-height: 100px;
+    max-width: 100%;
+    width: 100%;
+}
+input, textarea{
+    margin-bottom: 30px;
+    padding:10px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    
+}
+
+
+
+input[type="submit"]{
+    margin-bottom: 0;
+    background: #002597;
+    border: none;
+    color:#fff;
+    border-radius: 20px;
+    
+}
+
+input[type="submit"]:hover{
+    background: #959579;
+    color: red;
+    box-shadow: 0px 5px 0px #6f6f60;
+}
+
+.asignaturas{
+    list-style: none;
+    padding: 10px 30px;
+    color:#000;
+    font-size: 20px;
+    background: #f1f1e7;
+    display: block;
+}
